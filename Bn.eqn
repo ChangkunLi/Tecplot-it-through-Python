@@ -1,0 +1,3 @@
+#!MC 1410
+$!AlterData 
+  Equation = '{B_n} = V11*V25 + V12*V26 + V13*V27'
