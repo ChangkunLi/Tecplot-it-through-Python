@@ -11,7 +11,7 @@ using namespace::Eigen;
 
 #define nT2T 1.0/1000000000.0
 #define non2T 2*2440000.0*sqrt(3.14159265359*1.6726)/100000000000000.0
-#define Rm 2440000.0*1.05
+#define Rm 2440000.0
 #define D(a,b,xyz) (Data(Connectivity(Nele,a) - 1,xyz) - Data(Connectivity(Nele,b) - 1,xyz))*(Data(Connectivity(Nele,a) - 1,xyz) - Data(Connectivity(Nele,b) - 1,xyz))
 
 struct cut_sphere
