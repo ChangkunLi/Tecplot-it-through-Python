@@ -123,7 +123,7 @@ private:
             fraction = count/4.0;
             MatrixXd bar_param = MatrixXd::Zero(6,1);
             for(int i = 0;i<4;i++){
-                for(int j = 0;j<5;j++){
+                for(int j = 0;j<6;j++){
                     bar_param(j,0) += Data(Connectivity(Nele,i) - 1,param[j])/4.0;
                 }
             }   
